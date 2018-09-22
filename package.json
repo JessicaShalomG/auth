@@ -1,10 +1,14 @@
 {
-  "name": "reactivesearch-auth0-example",
+  "name": "auth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@appbaseio/reactivesearch": "^1.2.0",
     "auth0-js": "^8.9.3",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mysql": "^2.16.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.2"
@@ -19,8 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "author": "Divyanshu Maithani <div.blackcat@gmail.com>",
-  "homepage": "https://appbaseio-apps.github.io/reactivesearch-auth0-example"
+    "eject": "react-scripts eject",
+    "server": "nodemon server/index.js"
+  }
 }
